@@ -1,82 +1,164 @@
 body {
-	color: black;
-	border: 1px solid black;
+    color: black;
+    border: 1px solid black;
 }
 
 a {
-	color: black;
+    color: black;
 }
 
 header h1 {
-	text-align: center;
+    text-align: center;
 }
 
 content h1 {
-	text-align: center;
+    text-align: center;
 }
 
 .top-contacts-line {
-	background-color: #e9e9f1;
-	height: 32px;
+    background-color: #e9e9f1;
+    height: 32px;
+}
 
-}
 .top-contacts-line ul.nav {
-	height: 32px;
+    height: 32px;
 }
+
 .top-contacts-line .nav>li>a {
-	padding: 6px 15px;
+    padding: 6px 15px;
 }
 
 .top-menu .logo {
-	width: 80px;
-	height: 80px;
-	padding: 2px;
-	float: left;
-	text-align: center;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    float: left;
+    text-align: center;
 }
 
 .top-menu .buy-btn {
-	margin-top: 24px;
-	border-radius: 0;
+    margin-top: 24px;
+    border-radius: 0;
 }
 
 .top-menu ul.nav {
-margin-top: 24px;
+    margin-top: 24px;
 }
 
 .promotion-text {
-	margin-top: 100px;
-	height: 640px;
-	box-sizing: border-box;
+    margin-top: 100px;
+    height: 640px;
+    box-sizing: border-box;
 }
 
 .promotion-text p {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 .tracks-container h1 {
-	height: 80px;
+    height: 80px;
 }
 
 .tracks-container {
-	padding-left: 62px; 
+    padding-left: 62px;
 }
+
 .tracks-container .track {
-	height: 624px;
-	background-color: #213140;
-	color: white;
-	margin-right: 26px;
+    height: 624px;
+    background-color: #213140;
+    color: white;
+    margin-right: 26px;
 }
 
 .tracks-container .track:nth-child(even) {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 .tracks-container .track:nth-child(odd) {
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 .tracks-container .track img {
-	height: 320px;
+    height: 320px;
 }
 
+.about-container {
+    margin-top: 100px;
+}
+
+.about-container .about-block {
+    height: 340px;
+}
+
+.about-container .about-block .about-block-text {
+    margin-top: 250px;
+}
+
+.foto-container {
+    margin-top: 110px;
+}
+
+.foto-container .foto-block {
+    height: 480px;
+}
+
+.foto-container .foto-block img {
+    height: 480px;
+}
+
+
+.price-container {
+    margin-top: 110px;
+}
+
+.price-container table {
+    width: 100%;
+    margin-top: 32px;
+    font-size: 1em;
+}
+
+.price-container table thead td {
+    background-color: #5c6670;
+    color: white;
+    text-transform: uppercase;
+}
+.price-container table thead td p:last-child{
+    text-transform: none;
+}
+
+.price-container table td {
+    text-align: center;
+    width: 33.3%;
+    padding: 18px 0 14px;
+}
+
+.price-container table td p{
+margin:0; 
+}
+
+.price-container table tr td:first-child {
+    background-color: #5c6670;
+    color: white;
+    text-transform: uppercase;
+}
+
+.price-container table thead td:first-child {
+    background: none;
+}
+
+.price-container table tr td.joined-cols {
+    text-align: center;
+    background-color: #efefef;
+    color: black;
+    text-transform: none;
+}
+
+.price-container table tr td.additional-cost {
+    background: none;
+    color: black;
+    text-transform: none;
+}
+
+.buy-container {
+	margin-top: 80px;
+}
