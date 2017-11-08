@@ -1,3 +1,12 @@
+body {
+	color: black;
+	border: 1px solid black;
+}
+
+a {
+	color: black;
+}
+
 header h1 {
 	text-align: center;
 }
@@ -5,3 +14,69 @@ header h1 {
 content h1 {
 	text-align: center;
 }
+
+.top-contacts-line {
+	background-color: #e9e9f1;
+	height: 32px;
+
+}
+.top-contacts-line ul.nav {
+	height: 32px;
+}
+.top-contacts-line .nav>li>a {
+	padding: 6px 15px;
+}
+
+.top-menu .logo {
+	width: 80px;
+	height: 80px;
+	padding: 2px;
+	float: left;
+	text-align: center;
+}
+
+.top-menu .buy-btn {
+	margin-top: 24px;
+	border-radius: 0;
+}
+
+.top-menu ul.nav {
+margin-top: 24px;
+}
+
+.promotion-text {
+	margin-top: 100px;
+	height: 640px;
+	box-sizing: border-box;
+}
+
+.promotion-text p {
+	margin-top: 100px;
+}
+
+.tracks-container h1 {
+	height: 80px;
+}
+
+.tracks-container {
+	padding-left: 62px; 
+}
+.tracks-container .track {
+	height: 624px;
+	background-color: #213140;
+	color: white;
+	margin-right: 26px;
+}
+
+.tracks-container .track:nth-child(even) {
+	opacity: 0.8;
+}
+
+.tracks-container .track:nth-child(odd) {
+	margin-top: 80px;
+}
+
+.tracks-container .track img {
+	height: 320px;
+}
+
