@@ -70,6 +70,11 @@ content h1 {
     margin-right: 26px;
 }
 
+.tracks-container .track h5 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+ 
 .tracks-container .track:nth-child(even) {
     opacity: 0.8;
 }
@@ -80,6 +85,12 @@ content h1 {
 
 .tracks-container .track img {
     height: 320px;
+    margin-top: 28px;
+}
+
+
+.tracks-container .track .track-description {
+	margin-top: 24px;
 }
 
 .about-container {
